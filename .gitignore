@@ -1,0 +1,8 @@
+node_modules/
+obj_dir/
+*.vcd
+hram_backend.bin
+hram/hram
+vivado/
+*.bit
+*.log

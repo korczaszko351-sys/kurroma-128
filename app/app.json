@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "HRAM Panel",
+    "slug": "hram-panel",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": { "backgroundColor": "#0a0e14" },
+    "android": {
+      "package": "ai.teamily.hrampanel",
+      "versionCode": 1,
+      "adaptiveIcon": { "backgroundColor": "#0a0e14" },
+      "permissions": ["INTERNET"]
+    },
+    "extra": { "eas": { "projectId": "REPLACE_WITH_YOUR_PROJECT_ID" } }
+  }
+}

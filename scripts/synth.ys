@@ -1,0 +1,5 @@
+# synteza Kurroma-128 pod Xilinx Artix-7 (Arty A7-100T)
+read_verilog -Irtl rtl/kurroma_defs.vh rtl/mul128.v rtl/alu128.v rtl/regfile128.v rtl/csr128.v rtl/memctrl128.v rtl/kurroma_core.v rtl/kurroma_top.v
+hierarchy -check -top kurroma_top
+synth_xilinx -top kurroma_top -family xc7 -flatten
+stat
